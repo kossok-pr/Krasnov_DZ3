@@ -3,16 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.krasnov_dz3.CircleActivity"
+    android:gravity="center"
     android:orientation="vertical"
-    android:gravity="center">
+    tools:context="com.example.android.krasnov_dz3.CircleActivity">
 
     <EditText
         android:id="@+id/radius_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/radius_text"
-        android:inputType="number"/>
+        android:inputType="numberDecimal" />
 
     <TextView
         android:id="@+id/area_text"

@@ -7,10 +7,17 @@
     <string name="enter_width">Enter width</string>
     <string name="enter_height">Enter height</string>
     <string name="wh_count">Count by w and h</string>
+    <string name="or">OR</string>
+    <string name="first_diagonal">First diagonal</string>
+    <string name="second_diagonal">Second diagonal</string>
     <string name="x1_text">Enter x1</string>
     <string name="y1_text">Enter y1</string>
     <string name="x2_text">Enter x2</string>
     <string name="y2_text">Enter y2</string>
+    <string name="x3_text">Enter x3</string>
+    <string name="y3_text">Enter y3</string>
+    <string name="x4_text">Enter x4</string>
+    <string name="y4_text">Enter y4</string>
     <string name="c_count">Count by coordinates</string>
     <string name="enter_a">Enter a</string>
     <string name="enter_b">Enter b</string>

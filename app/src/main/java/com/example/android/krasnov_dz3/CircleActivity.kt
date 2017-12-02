@@ -1,10 +1,11 @@
 package com.example.android.krasnov_dz3
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 import com.example.android.modal.Circle
 
 class CircleActivity : AppCompatActivity() {
@@ -25,8 +26,7 @@ class CircleActivity : AppCompatActivity() {
                 var circle = Circle(radius)
                 areaText.text = String.format("Area: " + "%.2f", circle.countArea())
                 perimeterText.text = String.format("Perimeter: " + "%.2f", circle.countPerimeter())
-            }
-
+            } else Toast.makeText(applicationContext, "Fill the form", Toast.LENGTH_SHORT).show()
         }
     }
 }
