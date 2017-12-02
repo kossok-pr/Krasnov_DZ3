@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Krasnov_DZ3</string>
+    <string name="shape_choose">Choose your shape</string>
+    <string name="choose_btn">Choose</string>
+    <string name="radius_text">Enter radius</string>
+    <string name="count_btn">Count</string>
+    <string name="enter_width">Enter width</string>
+    <string name="enter_height">Enter height</string>
+    <string name="wh_count">Count by w and h</string>
+    <string name="x1_text">Enter x1</string>
+    <string name="y1_text">Enter y1</string>
+    <string name="x2_text">Enter x2</string>
+    <string name="y2_text">Enter y2</string>
+    <string name="c_count">Count by coordinates</string>
+    <string name="enter_a">Enter a</string>
+    <string name="enter_b">Enter b</string>
+    <string name="enter_c">Enter c</string>
+    <string-array name="shapes_array">
+        <item>Circle</item>
+        <item>Rectangle</item>
+        <item>Triangle</item>
+    </string-array>
+</resources>
